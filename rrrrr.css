@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
+*{
+    font-family: 'Work Sans', sans-serif;
+}
+
+.one{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    gap: 30px;
+    list-style: none;
+    color: rgb(105, 105, 105);
+  
+}
+
+
+ul{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+
+}
+
+li{
+    cursor: pointer;
+}
+
+li:hover{
+    color: rgb(1, 169, 152);
+}
+
+.logo{
+    height: 5vh;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    color: rgb(1, 169, 152);
+}
+.logo2{
+    display: block;
+    margin: auto;
+}
+
+.p1{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 200px;
+    padding-right: 200px;
+    color: rgb(105, 105, 105);
+}
+
+.three{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    padding-left: 200px;
+    padding-right: 200px;
+    cursor: pointer;
+}
+.item1{
+    color: rgb(255, 255, 255);
+    background-color: rgb(1, 169, 152);
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+    border-radius: 10px;
+
+}
+.item2{
+    color: rgb(255, 255, 255);
+    background-color: rgb(72, 101, 217);
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+    border-radius: 10px;
+}
+.item3{
+    color: rgb(255, 255, 255);
+    background-color: rgb(41, 41, 44);
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+    border-radius: 10px;
+}
+
